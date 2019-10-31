@@ -6,16 +6,16 @@ public class Point2D {
     this(0.0, 0.0);
   }
 
-  public Point2D(double x_value, double y_value) {
-    this.x = x_value;
-    this.y = y_value;
+  public Point2D(double x, double y) {
+    this.x = x;
+    this.y = y;
   }
 
-  public double xCoord() {
+  public double getX() {
     return this.x;
   }
 
-  public double yCoord() {
+  public double getY() {
     return this.y;
   }
 }

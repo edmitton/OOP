@@ -4,10 +4,10 @@ public class Sample02 {
     Point2D po2 = new Point2D(3, 5);
 
     System.out.println("1つ目");
-    System.out.println("x座標：" + po1.xCoord());
-    System.out.println("y座標：" + po1.yCoord());
+    System.out.println("x座標：" + po1.getX());
+    System.out.println("y座標：" + po1.getY());
     System.out.println("2つ目");
-    System.out.println("x座標：" + po2.xCoord());
-    System.out.println("y座標：" + po2.yCoord());
+    System.out.println("x座標：" + po2.getX());
+    System.out.println("y座標：" + po2.getY());
   }
 }
